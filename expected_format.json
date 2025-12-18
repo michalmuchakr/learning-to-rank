@@ -1,0 +1,27 @@
+{
+  "candidate_info": {
+    "language_used": "TODO: Python/R/Scala/etc",
+    "time_spent_hours": "TODO: 1.5"
+  },
+  "data_analysis": {
+    "overall_ctr": "TODO: Calculate",
+    "position_bias_ratio": "TODO: pos1_ctr / pos5_ctr",
+    "electronics_ctr": "TODO: Calculate",
+    "quality_correlation": "TODO: Correlation quality_score vs clicked",
+    "best_category": "TODO: Category with highest CTR"
+  },
+  "model_performance": {
+    "algorithm_used": "TODO: LightGBM/XGBoost/etc",
+    "ndcg_at_5": "TODO: NDCG@5 on test set",
+    "features_count": "TODO: Number of features used",
+    "top_features": [
+      "TODO: feature1",
+      "TODO: feature2"
+    ]
+  },
+  "business_analysis": {
+    "expected_ctr_lift_percent": "TODO: 10-30%",
+    "main_risk": "TODO: Main production risk",
+    "recommendation": "TODO: deploy/test/reject"
+  }
+}

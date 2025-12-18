@@ -1,0 +1,53 @@
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Environments ---
+.venv/
+venv/
+ENV/
+env/
+.env
+.env.*
+
+# Conda (common local dirs; keep environment.yml if you add one later)
+.conda/
+conda-env/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- ML / data science artifacts (local) ---
+*.pkl
+*.joblib
+*.h5
+*.onnx
+*.pt
+*.pth
+*.ckpt
+*.model
+*.lgb
+
+# --- Logs / temp ---
+*.log
+*.tmp
+tmp/
+
+
